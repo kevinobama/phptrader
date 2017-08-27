@@ -1,0 +1,6 @@
+PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Coinbase\Wallet\Exception\HttpException::exceptionClass() must be an instance of Psr\Http\Message\ResponseInterface, null given, called in /var/www/phpSource/phptrader/vendor/coinbase/coinbase/src/Exception/HttpException.php on line 33 and defined in /var/www/phpSource/phptrader/vendor/coinbase/coinbase/src/Exception/HttpException.php:98
+Stack trace:
+#0 /var/www/phpSource/phptrader/vendor/coinbase/coinbase/src/Exception/HttpException.php(33): Coinbase\Wallet\Exception\HttpException::exceptionClass(NULL)
+#1 /var/www/phpSource/phptrader/vendor/coinbase/coinbase/src/HttpClient.php(137): Coinbase\Wallet\Exception\HttpException::wrap(Object(GuzzleHttp\Exception\ConnectException))
+#2 /var/www/phpSource/phptrader/vendor/coinbase/coinbase/src/HttpClient.php(121): Coinbase\Wallet\HttpClient->send(Object(GuzzleHttp\Psr7\Request), Array)
+#3 /var/www/phpSource/phptrader/vendor/coinbase/coinbase/src/HttpClient.php(74): Coinbase\Wallet\HttpClient->request('GET', '/v2/accounts', Arra in /var/www/phpSource/phptrader/vendor/coinbase/coinbase/src/Exception/HttpException.php on line 98

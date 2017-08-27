@@ -1,0 +1,7 @@
+API Key details
+NOTE: Please store these credentials in a safe place. For your protection, we will not show them again. If you misplace your API key, you should delete this API key and generate a new one.
+
+
+API Key: XI3Z9UM1PyByMkjs
+
+API Secret: g3Ysm3mNDQkInursS2hUpJF81bbQL5RX
